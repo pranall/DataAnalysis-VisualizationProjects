@@ -1,21 +1,77 @@
-# **Plots, Flowcharts and Cognitive Load**
+# **Plots, Flowcharts and Cognitive Load: Pretty and Ugly plots**
 
-Produced two publication-ready graphics and accompanying reproducible code for Maricopa County COVID vaccination data (June 2021–Feb 2022). The .ipynb file also includes pretty plot first, the ugly plot second, and the data-manipulation code third.
+## **Project Summary**
 
-Details:
+This project focuses on creating a **Pretty Plot** and an **Ugly Plot** using the **Maricopa Covid19 dataset** to answer the following questions:
 
-• Data processed and cleaned for CSV ingestion, including removal of punctuation from variable names, consolidation of postal-code-level data to county-level summaries, and creation of age-group and time-series aggregates.
+* How do the vaccination totals between age groups compare?
+* How have the average vaccination totals changed over time in Maricopa County?
 
-• Project used the Maricopa Covid19 dataset, which reports COVID vaccinations by age group and postal code from June 2021 to February 2022, to answer two questions: comparison of vaccination totals between age groups and trends in average vaccination totals over time.
+The dataset reports COVID vaccinations by **age group** and **postal code** in Maricopa County from **June 2021 to February 2022**.
 
-• Pretty plot answered both questions in one graphic, with an informative caption documenting filtering decisions, aggregation steps, and formatting choices.
+---
 
-• Pretty plot used legible fonts, appropriate sizing, clear labels, consistent color mapping, correct scaling, and no data artifacts.
+## **1. Pretty Plot**
 
-• Pretty plot exported at publication-quality resolution.
+Constructed a publication-quality graphic that simultaneously shows:
 
-• Ugly plot answered the same questions while intentionally including at least five display errors such as improper scaling, poor font selection, misleading colors, inappropriate plot type, and a flawed caption.
+* **Total vaccinations by age group** across the study period.
+* **Average monthly vaccinations** over time in Maricopa County.
+* Cleaned variable names for readability.
+* Informative axis labels (e.g., “Age Group”, “Total Vaccinations”, “Average Monthly Vaccinations”).
+* Consistent color mapping, appropriate shapes, and correct scales.
+* Annotations and/or lines where needed to highlight trends.
+* No artifacts such as underscores, code-style names, or stray punctuation.
 
-• Both plots followed the allowed plot-type constraints and used captions placed as text beneath each plot.
+---
 
-• Code and data-preparation steps were fully reproducible and matched the outputs shown.
+## **2. Data Artifact Removal + Legibility**
+
+The Pretty Plot ensures:
+
+* No data artifacts (cleaned variable names, readable labels).
+* Legible fonts for titles, axes, ticks, and legends.
+* Informative captions that describe all data transformations and visual choices.
+* Clean background with subtle gridlines and rotated x-tick labels to avoid overlap.
+* High-resolution export (300 DPI) for publication quality.
+
+---
+
+## **3. Scale and Resolution**
+
+* Figure size optimized for legibility (e.g., wide layout to accommodate age groups and time series).
+* Titles and axis labels set to prominent, readable sizes.
+* Tight layout applied to prevent label clipping.
+* Plot saved at high resolution to maintain clarity for digital and print formats.
+
+---
+
+## **4. Pretty Plot Caption**
+
+Caption explains:
+
+* Data cleaning and aggregation steps (e.g., combining age-specific counts, grouping by month).
+* How total and average vaccinations were calculated.
+* The reasoning behind plot choices (bar plot for totals, line plot for averages).
+* The connection between visualized trends and the scenario questions.
+
+---
+
+## **5. Ugly Plot**
+
+Created the same general plot as the Pretty Plot but with intentional display errors, including:
+
+* Too-small font for labels and title.
+* Misleading or inconsistent axis scales.
+* Distracting color palette.
+* Wrong plot type for one of the metrics.
+* Poorly formatted or confusing caption.
+
+The Ugly Plot answers the same questions but highlights common pitfalls in data visualization.
+
+---
+
+## **6. Code and Reproducibility**
+
+* All data manipulation, cleaning, and plotting steps are fully reproducible.
+* .ipynb file includes Pretty Plot first, Ugly Plot second, and the accompanying Python code third.
