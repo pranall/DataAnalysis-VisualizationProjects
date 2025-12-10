@@ -70,13 +70,18 @@ The Pretty Plot includes a caption that:
 
 ## **5. Discussion of the Illusions Used**
 
-The Illusion Plot intentionally incorporates distortions discussed in class, such as:
+The Illusion Plot intentionally incorporates distortions, such as:
 
 • **Truncated Axis Illusion** – exaggerates changes and creates false steepness.
+
 • **Color Illusion** – inverted or misleading color scale alters perceived magnitude.
+
 • **Size-Based Perception Illusion (Ebbinghaus Effects)** – bubble sizes distort quantity comparisons.
+
 • **Misaligned Panel Scales** – identical values appear different due to inconsistent axes.
+
 • **Area vs. Length Illusion** – using area encodings creates non-linear perception of changes.
+
 • **Overplotting Density Illusion** – excessive overlap changes interpretation of trend strength.
 
 The caption explicitly highlights the illusion used so the reader understands how the visual cue distorts interpretation.
