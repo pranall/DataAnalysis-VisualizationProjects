@@ -1,4 +1,4 @@
-# ** Plots, Flowcharts and Cognitive Load**
+# **Plots, Flowcharts and Cognitive Load**
 
 Produced two publication-ready graphics and accompanying reproducible code for Maricopa County COVID vaccination data (June 2021–Feb 2022). The submission included a single PDF with the pretty plot first, the ugly plot second, and the data-manipulation code third.
 
